@@ -6,6 +6,7 @@ public class Charactercount {
 		HashMap<Character, Integer> charCountMap=countCharacters(inputString);
 		printCharacterCount(charCountMap);	
 	}
+	
 	public static HashMap <Character, Integer> countCharacters(String inputString){
 		HashMap<Character ,Integer> charCountMap =new HashMap<>();
 		for (int i = 0; i < inputString.length(); i++) {
