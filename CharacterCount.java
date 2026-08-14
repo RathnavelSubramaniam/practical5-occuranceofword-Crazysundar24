@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Charactercount {
+public class CharacterCount {
 	public static void main(String[] args) {
 		String inputString = "HELLO THERE";
 		HashMap<Character, Integer> charCountMap=countCharacters(inputString);
